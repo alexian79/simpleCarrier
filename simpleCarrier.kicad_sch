@@ -1,0 +1,435 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "72db9dae-5f31-4a10-9047-fdf9bc345a06")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 158.75 105.41)
+		(size 19.05 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0044eabf-f30e-42c7-81c7-c1467afa7cc2")
+		(property "Sheetname" "PMOD"
+			(at 158.75 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmod.kicad_sch"
+			(at 158.75 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.388 25.908)
+		(size 49.022 16.764)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1803d24e-9660-4c9d-82db-3dd492b14553")
+		(property "Sheetname" "power"
+			(at 56.388 25.1964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 56.388 43.2566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 206.502 115.316)
+		(size 30.988 19.812)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "260c8dfd-780f-402a-88e1-94f818d59c49")
+		(property "Sheetname" "mipi"
+			(at 206.502 114.6044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mipi.kicad_sch"
+			(at 206.502 135.7126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 128.778)
+		(size 26.67 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44649897-9aeb-4c4e-8126-80a02d947ae7")
+		(property "Sheetname" "PCIE"
+			(at 115.57 128.0664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie.kicad_sch"
+			(at 115.57 156.0326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 109.22)
+		(size 52.07 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49aed8cb-893b-4572-9c5d-e1132996fc0a")
+		(property "Sheetname" "usb"
+			(at 55.88 108.5084 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 55.88 165.6846 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.452 55.118)
+		(size 40.894 32.258)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "648eadf3-ac98-4b70-9b99-fd8a2baf0ae9")
+		(property "Sheetname" "clock"
+			(at 187.452 54.4064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clock.kicad_sch"
+			(at 187.452 87.9606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 53.34)
+		(size 50.8 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af195269-c1b7-4662-88fc-01613ddb4412")
+		(property "Sheetname" "connectors"
+			(at 55.88 52.6284 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 55.88 99.6446 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 183.388 168.402)
+		(size 40.64 30.988)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6838175-1dd5-43ec-85ee-90ca8b676c11")
+		(property "Sheetname" "tek_LA"
+			(at 183.388 167.6904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P6860.kicad_sch"
+			(at 183.388 199.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 81.28)
+		(size 20.32 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c93acd63-62f0-4482-8389-61a1d7f7d90f")
+		(property "Sheetname" "JX2"
+			(at 115.57 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JX2.kicad_sch"
+			(at 115.57 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 59.69)
+		(size 20.32 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e6ab9ad1-f986-4be7-aa63-cdcaaf3d5729")
+		(property "Sheetname" "JX1"
+			(at 115.57 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JX1.kicad_sch"
+			(at 115.57 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 104.14)
+		(size 20.32 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef091191-0874-4db6-9d03-0ac7bb281bfe")
+		(property "Sheetname" "JX3"
+			(at 115.57 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JX3.kicad_sch"
+			(at 115.57 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
