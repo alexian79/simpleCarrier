@@ -5995,7 +5995,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6a8c7a62-a33c-467e-b238-42fcf6eb8c7c")
 		(property "Reference" "J3"
 			(at 148.59 76.2 0)
@@ -6378,7 +6378,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9a375525-2868-4945-bd72-a9040d064d2e")
 		(property "Reference" "J1"
 			(at 133.35 151.13 0)

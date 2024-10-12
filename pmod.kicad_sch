@@ -877,29 +877,6 @@
 			)
 		)
 	)
-	(global_label "JX2_HD_SE_10_N"
-		(shape input)
-		(at 203.2 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 255 194 1)
-			)
-			(justify right)
-		)
-		(uuid "36ee5b09-934c-4908-9509-5fec4ab492ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9491 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "JX2_HD_SE_02_N"
 		(shape input)
 		(at 242.57 63.5 180)
@@ -1058,29 +1035,6 @@
 			)
 		)
 	)
-	(global_label "JX2_HD_SE_11_P"
-		(shape input)
-		(at 203.2 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 255 194 1)
-			)
-			(justify right)
-		)
-		(uuid "7b8e06b1-9911-468b-aae9-e38359a2d5b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9491 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "JX2_HD_SE_01_N"
 		(shape input)
 		(at 242.57 48.26 180)
@@ -1140,29 +1094,6 @@
 		(uuid "8dfbcfd4-2926-4654-bd75-300ba84beee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 236.3191 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JX2_HD_SE_05_GC_N"
-		(shape input)
-		(at 203.2 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 255 194 1)
-			)
-			(justify right)
-		)
-		(uuid "9186657d-9082-4b7c-92c8-a3d183208870")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9491 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,29 +1172,6 @@
 			)
 		)
 	)
-	(global_label "JX2_HD_SE_11_N"
-		(shape input)
-		(at 203.2 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 255 194 1)
-			)
-			(justify right)
-		)
-		(uuid "cdd42af7-d092-4be5-8afb-63e93757452e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9491 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "JX2_HD_SE_03_N"
 		(shape input)
 		(at 242.57 66.04 180)
@@ -1299,29 +1207,6 @@
 		(uuid "e98b77f7-c5a3-475f-9187-49385c3820d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 236.3191 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JX2_HD_SE_10_P"
-		(shape input)
-		(at 203.2 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 255 194 1)
-			)
-			(justify right)
-		)
-		(uuid "fee17e48-3b96-492f-bc36-d4cd45929801")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9491 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
