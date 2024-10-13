@@ -5,6 +5,166 @@
 	(uuid "2580f58a-29da-4d3f-b3aa-30c9b8718b01")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:BAT54W"
 			(pin_names
 				(offset 1.016) hide)
@@ -2387,6 +2547,140 @@
 				)
 			)
 		)
+		(symbol "jlcpcb-basic-resistor-0603:680"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "680"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252130_UNI-ROYAL-Uniroyal-Elec-0603WAF6800T5E_C23228.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1% 1 10W Thick Film Resistors 75V   100ppm    -55    155   680   0603 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C23228"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.001 0.001)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.001 0.001)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFGPN" "0603WAF6800T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.001 0.001)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "680_0_0"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "jlcpcb-basic-resistor:0603,0"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3159,6 +3453,12 @@
 		(uuid "c01ccfda-3b40-415f-92b0-1c8b9f1cc78b")
 	)
 	(junction
+		(at 182.88 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03b4e42-0d90-4c51-bcc8-a68c2197fde0")
+	)
+	(junction
 		(at 26.67 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3205,6 +3505,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5f704f5-d26e-4032-852f-70e56682a586")
+	)
+	(junction
+		(at 185.42 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f888ff0e-1e73-43f5-8850-e3126a654536")
 	)
 	(junction
 		(at 110.49 171.45)
@@ -3907,6 +4213,16 @@
 			(type default)
 		)
 		(uuid "7220a7ef-1f03-4627-b949-4f9d49d30dc3")
+	)
+	(wire
+		(pts
+			(xy 182.88 33.02) (xy 187.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ead764-9bc3-4ed7-adda-0e131e1c7c4c")
 	)
 	(wire
 		(pts
@@ -4667,6 +4983,16 @@
 			(type default)
 		)
 		(uuid "dc41a9e2-f1f3-426a-9686-2d6f36602d25")
+	)
+	(wire
+		(pts
+			(xy 185.42 30.48) (xy 187.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5c0ded-cd83-462f-8c49-e07870cf760e")
 	)
 	(wire
 		(pts
@@ -10058,7 +10384,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7d28e1ba-f009-4bf0-aa94-37db9f72953d")
 		(property "Reference" "J7"
@@ -10198,7 +10524,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jlcpcb-basic-resistor-0603:12k")
+		(lib_id "jlcpcb-basic-resistor-0603:680")
 		(at 251.46 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10215,8 +10541,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10.5k"
-			(at 245.872 113.284 0)
+		(property "Value" "680"
+			(at 246.634 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10233,7 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF1202T5E_C22790.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252130_UNI-ROYAL-Uniroyal-Elec-0603WAF6800T5E_C23228.pdf"
 			(at 251.46 110.49 0)
 			(effects
 				(font
@@ -10242,7 +10568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1% 1 10W Thick Film Resistors 75V   100ppm    -55    155   12k   0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "1% 1 10W Thick Film Resistors 75V   100ppm    -55    155   680   0603 Chip Resistor - Surface Mount ROHS"
 			(at 251.46 110.49 0)
 			(effects
 				(font
@@ -10251,7 +10577,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22790"
+		(property "LCSC" "C23228"
 			(at 251.46 110.49 0)
 			(effects
 				(font
@@ -10269,7 +10595,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFGPN" "0603WAF1202T5E"
+		(property "MFGPN" "0603WAF6800T5E"
 			(at 251.46 110.49 0)
 			(effects
 				(font
@@ -11115,6 +11441,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 193.04 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b0985d98-4057-478e-a0e9-1ec008f88620")
+		(property "Reference" "J19"
+			(at 194.31 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 194.31 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 193.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 193.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e15715f3-4521-4801-8292-156351994372")
+		)
+		(pin "1"
+			(uuid "a393eb88-8d9d-4e55-892f-02b1b33ad337")
+		)
+		(instances
+			(project ""
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06/1803d24e-9660-4c9d-82db-3dd492b14553"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 251.46 128.27 0)
 		(unit 1)
@@ -11381,7 +11778,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22790"
+		(property "LCSC" "C23046"
 			(at 110.49 166.37 0)
 			(effects
 				(font
