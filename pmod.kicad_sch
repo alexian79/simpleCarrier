@@ -1224,7 +1224,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "269446bf-d622-4ce3-850e-e3cc7ac77db0")
 		(property "Reference" "PMOD2"
 			(at 261.8914 69.85 0)
@@ -1391,7 +1391,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e3cf3237-9983-4dd9-a1a4-77f6b7cf6516")
 		(property "Reference" "PMOD1"
 			(at 261.8914 30.48 0)
