@@ -11545,7 +11545,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R31"
-			(at -0.254 1.524 360)
+			(at -0.254 1.524 0)
 			(layer "F.SilkS")
 			(uuid "606a2470-ce33-439e-9d52-1b2639ee6307")
 			(effects
@@ -11556,7 +11556,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "ce3c4724-d0f1-41b9-a2f3-86cdf25aef78")
 			(effects
@@ -11814,7 +11814,7 @@
 			(uuid "74de4a32-535a-41f5-834a-f43805ec3b5f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "19bd8897-5cee-4efd-a26f-0d3359e3d970")
 			(effects
@@ -40455,7 +40455,7 @@
 		(path "/af195269-c1b7-4662-88fc-01613ddb4412/6e7f332f-9dcf-47fa-8cf0-00f8de498ca1")
 		(sheetname "connectors")
 		(sheetfile "connectors.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -7 3.15)
 			(end -8.325 3.15)
@@ -42283,7 +42283,7 @@
 		(descr "Through hole angled pin header, 1x01, 2.00mm pitch, 4.2mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J15"
-			(at -0.127 1.778 -360)
+			(at -0.127 1.778 0)
 			(layer "B.SilkS")
 			(uuid "2126cae5-360f-4005-a70a-5a905bab4bad")
 			(effects
@@ -42295,7 +42295,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 3.1 -2 360)
+			(at 3.1 -2 0)
 			(layer "B.Fab")
 			(uuid "c0164f33-4a87-49ce-8e68-2e8cadb53e08")
 			(effects
@@ -42705,7 +42705,7 @@
 		(descr "Through hole angled pin header, 1x01, 2.00mm pitch, 4.2mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J12"
-			(at -2.413 0.635 -360)
+			(at -2.413 0.635 0)
 			(layer "B.SilkS")
 			(uuid "b7ecebce-09a4-42c9-9806-7aedc137a0b7")
 			(effects
@@ -42717,7 +42717,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 3.1 -2 360)
+			(at 3.1 -2 0)
 			(layer "B.Fab")
 			(uuid "2d252618-bc49-4c44-b83b-5fee15bbb12b")
 			(effects
@@ -43453,7 +43453,7 @@
 		(path "/0044eabf-f30e-42c7-81c7-c1467afa7cc2/e3cf3237-9983-4dd9-a1a4-77f6b7cf6516")
 		(sheetname "PMOD")
 		(sheetfile "pmod.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 2.54 -7.62)
 			(end -2.54 -7.62)
@@ -45321,7 +45321,7 @@
 		(descr "Through hole angled pin header, 1x01, 2.00mm pitch, 4.2mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J14"
-			(at -1.524 -1.524 -0)
+			(at -1.524 -1.524 0)
 			(layer "B.SilkS")
 			(uuid "7a0bd301-d4b5-4bc7-9a5f-3ac4c0432fda")
 			(effects
@@ -45743,7 +45743,7 @@
 		(descr "Through hole angled pin header, 1x01, 2.00mm pitch, 4.2mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J13"
-			(at -1.778 0 -180)
+			(at -1.778 0 180)
 			(layer "B.SilkS")
 			(uuid "9f9d4d77-4e8a-4dee-9b31-371c1c08f184")
 			(effects
@@ -46124,7 +46124,7 @@
 			(uuid "40074a7f-99b8-4450-8632-a915f52f4d7f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.25 0 360)
+			(at 2.25 0 0)
 			(layer "B.Fab")
 			(uuid "079d3688-ac44-48d0-8125-041110750e2f")
 			(effects
@@ -46231,7 +46231,7 @@
 		(path "/0044eabf-f30e-42c7-81c7-c1467afa7cc2/269446bf-d622-4ce3-850e-e3cc7ac77db0")
 		(sheetname "PMOD")
 		(sheetfile "pmod.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 2.54 -7.62)
 			(end -2.54 -7.62)
@@ -46906,7 +46906,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R29"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "B.SilkS")
 			(uuid "3923db08-0cc8-427a-83a0-9b926fe46cca")
 			(effects
@@ -46918,7 +46918,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "58030f60-4c7f-44f5-b3ed-08b307085cbc")
 			(effects
@@ -47188,7 +47188,7 @@
 			(uuid "44e5a5b1-456a-4cbc-9e7e-49ad4b8568aa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "7a8765b4-1165-4b8b-982b-b0d366772397")
 			(effects
@@ -47236,7 +47236,7 @@
 		(descr "Through hole angled pin header, 1x01, 2.00mm pitch, 4.2mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J17"
-			(at -0.127 1.778 -0)
+			(at -0.127 1.778 0)
 			(layer "B.SilkS")
 			(uuid "5163226b-88fc-4750-93bc-386f840c89ba")
 			(effects
@@ -47658,7 +47658,7 @@
 		(descr "Through hole angled pin header, 1x01, 2.00mm pitch, 4.2mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J16"
-			(at -0.381 -1.651 -0)
+			(at -0.381 -1.651 0)
 			(layer "B.SilkS")
 			(uuid "841720ec-ab2b-40cb-adec-684796948204")
 			(effects
@@ -48080,7 +48080,7 @@
 		(descr "Through hole angled pin header, 1x01, 2.00mm pitch, 4.2mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J18"
-			(at -0.075 -1.524 360)
+			(at -0.075 -1.524 0)
 			(layer "B.SilkS")
 			(uuid "69058e23-f330-47db-a523-8322b45107f4")
 			(effects
@@ -48092,7 +48092,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 3.1 -2 360)
+			(at 3.1 -2 0)
 			(layer "B.Fab")
 			(uuid "6e12da63-8eea-4114-9fc5-8f54fd497e0d")
 			(effects
@@ -81449,6 +81449,14 @@
 		(uuid "2a497730-9b9f-4b8b-8e34-e84296e03d30")
 	)
 	(segment
+		(start 95.362 91.911)
+		(end 95.362 93.472)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 329)
+		(uuid "7856d0d1-7316-4804-9b61-e5f460170716")
+	)
+	(segment
 		(start 95.362 95.646)
 		(end 95.25 95.758)
 		(width 0.508)
@@ -81487,6 +81495,14 @@
 		(layer "F.Cu")
 		(net 329)
 		(uuid "d7b2aa2e-425d-4d32-841d-9092ae436090")
+	)
+	(segment
+		(start 96.722 90.551)
+		(end 95.362 91.911)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 329)
+		(uuid "d7dc8f80-591e-4605-99e1-b817fd614161")
 	)
 	(via
 		(at 77.978 84.328)
@@ -89248,8 +89264,8 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 176.190006 95.149058) (xy 176.315896 95.214817) (xy 176.41816 95.313379) (xy 176.488514 95.436761)
-				(xy 176.521257 95.574965) (xy 176.52313 95.607961) (xy 177.312301 129.060069) (xy 177.31244 129.071409)
+				(xy 176.190007 95.149059) (xy 176.315897 95.214819) (xy 176.418161 95.313381) (xy 176.488514 95.436763)
+				(xy 176.521257 95.574967) (xy 176.52313 95.607962) (xy 177.312301 129.060075) (xy 177.31244 129.071415)
 				(xy 177.328545 147.819726) (xy 177.324315 147.881774) (xy 177.324294 147.885227) (xy 177.324778 147.889078)
 				(xy 177.328658 147.950748) (xy 177.328661 147.954623) (xy 177.33149 147.975972) (xy 177.335391 148.021009)
 				(xy 177.339231 148.114369) (xy 177.33568 148.197719) (xy 177.320309 148.3188) (xy 177.30292 148.400397)
@@ -89784,9 +89800,8 @@
 				(xy 172.494712 96.324915) (xy 172.553713 96.19572) (xy 172.646723 96.088381) (xy 172.766206 96.011593)
 				(xy 172.902483 95.971578) (xy 172.973499 95.966499) (xy 174.732031 95.966499) (xy 174.732036 95.966499)
 				(xy 174.851418 95.955886) (xy 175.047049 95.899909) (xy 175.227407 95.805698) (xy 175.385109 95.677109)
-				(xy 175.38511 95.677108) (xy 175.513695 95.519411) (xy 175.513695 95.51941) (xy 175.513698 95.519407)
-				(xy 175.581977 95.388691) (xy 175.66498 95.273446) (xy 175.777093 95.18625) (xy 175.909231 95.134171)
-				(xy 176.050689 95.12143)
+				(xy 175.385819 95.676239) (xy 175.499828 95.536417) (xy 175.513698 95.519407) (xy 175.581977 95.388692)
+				(xy 175.664981 95.273446) (xy 175.777094 95.18625) (xy 175.909232 95.134172) (xy 176.05069 95.121431)
 			)
 		)
 		(filled_polygon
@@ -90847,8 +90862,8 @@
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 176.123294 90.576477) (xy 176.242778 90.653264) (xy 176.335788 90.760603) (xy 176.394789 90.889798)
-				(xy 176.414863 91.018614) (xy 177.312301 129.060069) (xy 177.31244 129.071409) (xy 177.328545 147.819726)
+				(xy 176.123294 90.576479) (xy 176.242778 90.653266) (xy 176.335788 90.760605) (xy 176.394789 90.8898)
+				(xy 176.414863 91.018616) (xy 177.312301 129.060074) (xy 177.31244 129.071414) (xy 177.328545 147.819726)
 				(xy 177.324315 147.881774) (xy 177.324294 147.885227) (xy 177.324778 147.889078) (xy 177.328658 147.950748)
 				(xy 177.328661 147.954623) (xy 177.33149 147.975972) (xy 177.335391 148.021009) (xy 177.339231 148.114369)
 				(xy 177.33568 148.197719) (xy 177.320309 148.3188) (xy 177.30292 148.400397) (xy 177.267593 148.517217)
@@ -91008,9 +91023,9 @@
 				(xy 173.312201 114.9115) (xy 173.312205 114.9115) (xy 173.517767 114.870611) (xy 173.630414 114.823951)
 				(xy 173.711399 114.790406) (xy 173.7114 114.790405) (xy 173.711403 114.790404) (xy 173.88567 114.673963)
 				(xy 175.179465 113.380168) (xy 175.295906 113.205901) (xy 175.319591 113.148722) (xy 175.376111 113.012269)
-				(xy 175.376113 113.012265) (xy 175.417002 112.806703) (xy 175.417002 112.597112) (xy 175.417002 91.030383)
-				(xy 175.437215 90.889798) (xy 175.496216 90.760603) (xy 175.589226 90.653264) (xy 175.70871 90.576477)
-				(xy 175.844987 90.536462) (xy 175.987017 90.536462)
+				(xy 175.376113 113.012265) (xy 175.417002 112.806703) (xy 175.417002 112.597112) (xy 175.417002 91.030385)
+				(xy 175.437215 90.8898) (xy 175.496216 90.760605) (xy 175.589226 90.653266) (xy 175.70871 90.576479)
+				(xy 175.844987 90.536464) (xy 175.987017 90.536464)
 			)
 		)
 		(filled_polygon
