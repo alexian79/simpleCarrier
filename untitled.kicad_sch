@@ -3273,6 +3273,12 @@
 		)
 	)
 	(junction
+		(at 254 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c131c08-bd88-4a59-a4a1-75b8b12b7018")
+	)
+	(junction
 		(at 266.7 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3806,6 +3812,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 60.96) (xy 261.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2d29fa-8236-4ff4-98d7-85d800f15ae0")
+	)
+	(wire
+		(pts
 			(xy 26.67 110.49) (xy 26.67 114.3)
 		)
 		(stroke
@@ -4006,7 +4022,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 60.96) (xy 261.62 60.96)
+			(xy 251.46 60.96) (xy 254 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5023,6 +5039,16 @@
 			(type default)
 		)
 		(uuid "e139a4ac-8a96-4923-b837-2e66d8543060")
+	)
+	(wire
+		(pts
+			(xy 254 55.88) (xy 254 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e147a844-f061-4688-9dd9-7cb37514dabf")
 	)
 	(wire
 		(pts
@@ -7823,6 +7849,72 @@
 			(project ""
 				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06/1803d24e-9660-4c9d-82db-3dd492b14553"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 254 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09e9b2bb-670a-45c0-afde-218fd443a46a")
+		(property "Reference" "#PWR051"
+			(at 254 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 254 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c12e0f86-cd04-40b4-8d12-64c49fd4f1bf")
+		)
+		(instances
+			(project "simpleCarrier"
+				(path "/72db9dae-5f31-4a10-9047-fdf9bc345a06/1803d24e-9660-4c9d-82db-3dd492b14553"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
